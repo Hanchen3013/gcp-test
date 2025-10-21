@@ -1,0 +1,6 @@
+Flask
+sqlalchemy
+pymysql
+google-cloud-logging
+google-cloud-pubsub
+google-cloud-aiplatform
