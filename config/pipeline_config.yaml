@@ -1,0 +1,23 @@
+# GCP Data Pipeline Configuration
+
+gcp:
+  project_id: ${GCP_PROJECT_ID}
+  region: us-central1
+  bucket: ${GCS_BUCKET}
+
+pubsub:
+  topic: data-ingestion-topic
+  subscription: data-ingestion-sub
+
+bigquery:
+  dataset: pipeline_data
+  table: processed_data
+  location: US
+
+pipeline:
+  batch_size: 100
+  max_workers: 4
+  
+logging:
+  level: INFO
+  log_file: pipeline.log

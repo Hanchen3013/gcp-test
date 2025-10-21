@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Sample Record 1",
+    "value": 100,
+    "category": "A",
+    "timestamp": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Sample Record 2",
+    "value": 200,
+    "category": "B",
+    "timestamp": "2025-01-02T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Sample Record 3",
+    "value": 150,
+    "category": "A",
+    "timestamp": "2025-01-03T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Sample Record 4",
+    "value": 300,
+    "category": "C",
+    "timestamp": "2025-01-04T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Sample Record 5",
+    "value": 250,
+    "category": "B",
+    "timestamp": "2025-01-05T00:00:00Z"
+  }
+]
