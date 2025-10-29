@@ -64,3 +64,7 @@ def handle_pubsub():
     except Exception as e:
         logger.log_text(f"Error processing transcript {transcript_id}: {e}", severity="ERROR")
         return jsonify({"error": str(e)}), 500
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
